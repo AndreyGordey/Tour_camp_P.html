@@ -1,0 +1,90 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-image: url(/img/bg\ 1.png);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.nav-item{
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 86px;
+    font-size: 28px;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-item:hover{
+    color: rgb(25, 0, 255);
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 80px;
+    width: 1000px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 146px;
+}
+
+.subtitle{
+    color: aliceblue;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 514px;
+    line-height: 44px;
+    margin-top: 50px;
+}
+
+.input{
+    width: 377px;
+    height: 67px;
+    font-size: 24px;
+    outline: none;
+    border: 4px rgb(121, 116, 116) solid;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.forma{
+    text-align: center;
+    margin-top: 46px;
+}
+
+.btn{
+    background-color: rgba(0, 0, 255, 0.281);
+    padding: 15px 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    border: 3px rgb(121, 116, 116) solid;
+    border-radius: 25px;
+}
+
+.btn:hover{
+    background-color: rgb(25, 0, 255);
+
+}
+
+.button{
+    text-align: center;
+    margin-top: 60px;
+}
